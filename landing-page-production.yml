@@ -35,8 +35,8 @@ spec:
         name: landing-page-production
     spec:
       containers:
-        - name: landing-page-production
-          image: vanillavladimir/landing_page
+      - name: landing-page-production
+        image: vanillavladimir/landing_page
 ---
 apiVersion: v1
 kind: Service
